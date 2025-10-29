@@ -12,35 +12,35 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 20px;
+    padding: 1.25rem;
 }
 
 body > div {
     background: #1e293b;
-    border-radius: 20px;
-    padding: 40px;
-    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.4);
-    max-width: 500px;
+    border-radius: 1.25rem;
+    padding: 2.5rem;
+    box-shadow: 0 0.9375rem 2.1875rem rgba(0, 0, 0, 0.4);
+    max-width: 31.25rem;
     width: 100%;
 }
 
 input[type="number"] {
     width: 100%;
-    padding: 15px 20px;
-    margin-bottom: 20px;
-    border: 2px solid #334155;
-    border-radius: 12px;
+    padding: 0.9375rem 1.25rem;
+    margin-bottom: 1.25rem;
+    border: 0.125rem solid #334155;
+    border-radius: 0.75rem;
     background: #0f172a;
     color: #f1f5f9;
-    font-size: 18px;
+    font-size: 1.125rem;
     transition: all 0.3s ease;
 }
 
 input[type="number"]:focus {
     outline: none;
     border-color: #7c3aed;
-    transform: translateY(-2px);
-    box-shadow: 0 5px 15px rgba(124, 58, 237, 0.3);
+    transform: translateY(-0.125rem);
+    box-shadow: 0 0.3125rem 0.9375rem rgba(124, 58, 237, 0.3);
 }
 
 input[type="number"]::placeholder {
@@ -50,15 +50,15 @@ input[type="number"]::placeholder {
 .operations {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 12px;
-    margin-bottom: 25px;
+    gap: 0.75rem;
+    margin-bottom: 1.5625rem;
 }
 
 button {
-    padding: 15px 20px;
+    padding: 0.9375rem 1.25rem;
     border: none;
-    border-radius: 12px;
-    font-size: 18px;
+    border-radius: 0.75rem;
+    font-size: 1.125rem;
     font-weight: 600;
     cursor: pointer;
     transition: all 0.3s ease;
@@ -67,12 +67,12 @@ button {
 }
 
 button:hover {
-    transform: translateY(-3px);
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+    transform: translateY(-0.1875rem);
+    box-shadow: 0 0.5rem 1.25rem rgba(0, 0, 0, 0.3);
 }
 
 button:active {
-    transform: translateY(-1px);
+    transform: translateY(-0.0625rem);
 }
 
 #plus {
@@ -111,9 +111,9 @@ button:active {
     width: 100%;
     background: linear-gradient(135deg, #7c3aed, #6d28d9);
     color: white;
-    font-size: 20px;
-    padding: 18px;
-    margin-bottom: 30px;
+    font-size: 1.25rem;
+    padding: 1.125rem;
+    margin-bottom: 1.875rem;
 }
 
 #submit:hover {
@@ -122,27 +122,27 @@ button:active {
 
 .result-section {
     background: #0f172a;
-    padding: 25px;
-    border-radius: 15px;
-    border-left: 4px solid #7c3aed;
+    padding: 1.5625rem;
+    border-radius: 0.9375rem;
+    border-left: 0.25rem solid #7c3aed;
 }
 
 h4 {
     color: #94a3b8;
-    font-size: 16px;
-    margin-bottom: 10px;
+    font-size: 1rem;
+    margin-bottom: 0.625rem;
     text-transform: uppercase;
-    letter-spacing: 1px;
+    letter-spacing: 0.0625rem;
 }
 
 #result {
-    font-size: 32px;
+    font-size: 2rem;
     font-weight: bold;
     background: linear-gradient(45deg, #7c3aed, #06d6a0);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     text-align: center;
-    min-height: 48px;
+    min-height: 3rem;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -165,27 +165,27 @@ h4 {
 }
 
 /* Адаптивность */
-@media (max-width: 600px) {
+@media (max-width: 37.5rem) {
     body {
-        padding: 15px;
+        padding: 0.9375rem;
     }
     
     body > div {
-        padding: 25px;
+        padding: 1.5625rem;
     }
     
     .operations {
         grid-template-columns: repeat(2, 1fr);
-        gap: 10px;
+        gap: 0.625rem;
     }
     
     input[type="number"], button {
-        padding: 12px 15px;
-        font-size: 16px;
+        padding: 0.75rem 0.9375rem;
+        font-size: 1rem;
     }
     
     #result {
-        font-size: 28px;
+        font-size: 1.75rem;
     }
 }
 

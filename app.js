@@ -1,18 +1,4 @@
 
-
-// так нельзя делаять переменые
-//let 1num = 12
-//let 1-num = 1
-//нельзя назывыть переменые зарезирвироваными словами
-//желательно не писать вот так: let num_1 а писать вот так: let num1
-
-//console.log('Name:' + firstname)
-
-//num1 = (1 + 23)
-//num2 = (12 + 34) * 10 - 2
-//console.log(num2 + num1, num1,num2, firstname + age, 233232 * 2, 2.22323/323223 )
-
-
 const resultElement = document.getElementById("result")
 const input1 = document.getElementById("input1")
 const input2 = document.getElementById("input2")
